@@ -10,52 +10,49 @@ Acompanhamento do Livro Python Eficaz
    5. Saiba como fatiar sequências
    6. Evite usar start, end e stride em uma mesma fatia
    7. Use abrangências de lista em vez de map e filter
-      Item 8: Evite mais de duas expressões em abrangências de lista
-      Item 9: Considere usar expressões geradoras em abrangências muito grandes
-      Item 10: Prefira enumerate em vez de range
-      Item 11: Use zip para processar iteradores em paralelo
-      Item 12: Evite usar blocos else depois de laços for e while
-      Item 13: Use todo o potencial dos blocos try/except/else/finally
-      Capítulo 2 ■ Funções
-      Item 14: Prefira exceções em vez de devolver None
-      Item 15: Saiba como closures interagem com os escopos das variáveis
-      Item 16: Prefira geradores em vez de retornar listas
-      Item 17: Seja conservador quando iterar sobre argumentos
-
-Item 18: Reduza a poluição visual com argumentos opcionais
-Item 19: Implemente comportamento opcional usando palavras-chave como
-argumentos
-Item 20: Use None e docstrings para especificar argumentos default dinâmicos e
-específicos
-Item 21: Garanta a legibilidade com argumentos por palavras-chave
-Capítulo 3 ■ Classes e herança
-Item 22: Prefira classes auxiliares em vez de administrar registros complexos
-com dicionários e tuplas
-Item 23: Aceite funções para interfaces simples em vez de classes
-Item 24: Use o polimorfismo de @classmethod para construir objetos
-genericamente
-Item 25: Inicialize classes ancestrais com super
-Item 26: Use heranças múltiplas apenas para classes utilitárias mix-in
-Item 27: Prefira atributos públicos em vez de privativos
-Item 28: Herde da classe collections.abc para obter tipos de contêiner
-personalizados
-Capítulo 4 ■ Metaclasses e atributos
-Item 29: Use atributos comuns em vez dos métodos get e set
-Item 30: Considere usar @property em vez de refatorar atributos
-Item 31: Use descritores para implementar métodos reutilizáveis de @property
-Item 32: Use __getattr__, __getattribute__ e __setattr__ para atributos
-preguiçosos
-Item 33: Valide subclasses com metaclasses
-Item 34: Registre a existência de uma classe com metaclasses
-Item 35: Crie anotações de atributos de classe com metaclasses
-Capítulo 5 ■ Simultaneidade e paralelismo
-Item 36: Use subprocess para gerenciar processos-filho
-Item 37: Use threads para bloquear I/O e evitar paralelismo
-Item 38: Use Lock para evitar que as threads iniciem condições de corrida nos
-dados
-Item 39: Use Queue para coordenar o trabalho entre as threads
-Item 40: Considere usar corrotinas para rodar muitas funções simultaneamente
-Item 41: Considere usar concurrent.futures para obter paralelismo real
+   8. Evite mais de duas expressões em abrangências de lista
+   9. Considere usar expressões geradoras em abrangências muito grandes
+   10. Prefira enumerate em vez de range
+   11. Use zip para processar iteradores em paralelo
+   12. Evite usar blocos else depois de laços for e while
+   13. Use todo o potencial dos blocos try/except/else/finally
+2. Funções
+   14. Prefira exceções em vez de devolver None
+   15. Saiba como closures interagem com os escopos das variáveis
+   16. Prefira geradores em vez de retornar listas
+   17. Seja conservador quando iterar sobre argumentos
+   18. Reduza a poluição visual com argumentos opcionais
+   19. Implemente comportamento opcional usando palavras-chave como argumentos
+   20. Use None e docstrings para especificar argumentos default dinâmicos e específicos
+   21. Garanta a legibilidade com argumentos por palavras-chave
+3. Classes e herança
+   Item 22: Prefira classes auxiliares em vez de administrar registros complexos
+   com dicionários e tuplas
+   Item 23: Aceite funções para interfaces simples em vez de classes
+   Item 24: Use o polimorfismo de @classmethod para construir objetos
+   genericamente
+   Item 25: Inicialize classes ancestrais com super
+   Item 26: Use heranças múltiplas apenas para classes utilitárias mix-in
+   Item 27: Prefira atributos públicos em vez de privativos
+   Item 28: Herde da classe collections.abc para obter tipos de contêiner
+   personalizados
+   Capítulo 4 ■ Metaclasses e atributos
+   Item 29: Use atributos comuns em vez dos métodos get e set
+   Item 30: Considere usar @property em vez de refatorar atributos
+   Item 31: Use descritores para implementar métodos reutilizáveis de @property
+   Item 32: Use __getattr__, __getattribute__ e __setattr__ para atributos
+   preguiçosos
+   Item 33: Valide subclasses com metaclasses
+   Item 34: Registre a existência de uma classe com metaclasses
+   Item 35: Crie anotações de atributos de classe com metaclasses
+   Capítulo 5 ■ Simultaneidade e paralelismo
+   Item 36: Use subprocess para gerenciar processos-filho
+   Item 37: Use threads para bloquear I/O e evitar paralelismo
+   Item 38: Use Lock para evitar que as threads iniciem condições de corrida nos
+   dados
+   Item 39: Use Queue para coordenar o trabalho entre as threads
+   Item 40: Considere usar corrotinas para rodar muitas funções simultaneamente
+   Item 41: Considere usar concurrent.futures para obter paralelismo real
 
 Capítulo 6 ■ Módulos nativos
 Item 42: Defina decoradores de função com functools.wraps
